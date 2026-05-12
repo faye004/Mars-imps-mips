@@ -1,3 +1,6 @@
+#gli S sono i registri usati dal chiamante, essi all'interno della funzione del chiamato devono rimanare uguali alla fine della funzione. 
+#Essi possono anche subire variazioni all'interno, ma a fine funzione devono essere ripristinati.
+
 .data
 result_msg: .asciiz "Result: "
 
